@@ -12,18 +12,23 @@ Ouvrez le DMG, glissez sema dans Applications, puis ouvrez l’app. L’accueil 
 
 ## Homebrew
 
-```sh
-brew install --cask antoineberjoan/sema/sema
-```
-
-Homebrew 7 peut demander d’approuver ce cask tiers. Après avoir consulté son contenu, utilisez :
+Sur un nouveau Mac, préparez le tap et approuvez uniquement ce cask après l’avoir consulté :
 
 ```sh
-brew trust --cask antoineberjoan/sema/sema
-brew install --cask antoineberjoan/sema/sema
+brew tap antoineberjoan/sema
+brew trust --cask antoineberjoan/sema/sema-app
 ```
 
-Pour une mise à jour : `brew upgrade --cask antoineberjoan/sema/sema`.
+Puis installez sema :
+
+```sh
+brew install --cask sema-app
+```
+
+Installation directe sans préparation séparée : `brew install --cask antoineberjoan/sema/sema-app`.
+Mise à jour : `brew upgrade --cask sema-app`. Le renommage depuis l’ancien cask `sema` est déclaré dans `cask_renames.json`.
+
+La commande courte utilise ce tap tiers ; sema n’est pas référencée dans le catalogue officiel Homebrew. Les protections de macOS restent applicables.
 
 ## Première ouverture
 

@@ -38,4 +38,4 @@ Cette alpha est signée localement et n’est pas notarisée par Apple. macOS pe
 
 La clé personnelle Webstat est conservée dans le Trousseau du Mac et transmise uniquement à la Banque de France. Les préférences et les observations téléchargées restent locales. Aucune clé fournisseur partagée n’est distribuée.
 
-Les alertes sont vérifiées lorsque vous actualisez les données dans sema. Il n’y a pas de surveillance quand l’app est quittée ou le Mac en veille.
+Les repères sont actualisés toutes les 24 h tant que sema tourne, même avec le hub fermé. Le lancement et le réveil contrôlent leur fraîcheur ; seules les données devenues anciennes sont récupérées. Les alertes suivent les nouvelles observations. Commande R force une actualisation. Il n’y a pas de surveillance quand l’app est quittée ou le Mac en veille.

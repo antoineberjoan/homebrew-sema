@@ -2,7 +2,7 @@
 
 Vos repères économiques Webstat, à portée de main. Une app native pour les Mac avec puce Apple, sous macOS 14 ou version ultérieure.
 
-Ce dépôt distribue le cask Homebrew et les versions binaires de sema. Le code de l’application reste dans un dépôt privé.
+Ce dépôt distribue le cask Homebrew et les versions binaires de sema. Le [code de l’application](https://github.com/antoineberjoan/sema) est public sous licence MIT.
 
 ## Télécharger
 
